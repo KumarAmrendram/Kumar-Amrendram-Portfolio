@@ -1,5 +1,5 @@
 {
-    "scripts": {
+  "scripts": {
     "start": "node app.js"
   },
   "engines": {
@@ -8,6 +8,21 @@
   "dependencies": {
     "body-parser": "^1.20.0",
     "ejs": "^3.1.8",
-    "express": "^4.18.1" 
-  }
+    "express": "^4.18.1"
+  },
+  "name": "kumar-amrendram-portfolio",
+  "version": "1.0.0",
+  "description": "This is my personal protfolio website made with bootstrap and Node.js",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KumarAmrendram/Kumar-Amrendram-Portfolio.git"
+  },
+  "author": "Kumar Amrendram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KumarAmrendram/Kumar-Amrendram-Portfolio/issues"
+  },
+  "homepage": "https://github.com/KumarAmrendram/Kumar-Amrendram-Portfolio#readme"
 }
