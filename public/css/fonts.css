@@ -1,0 +1,11 @@
+
+
+/* @font-face */
+
+  @font-face {
+      font-family:"Montserrat";
+      src: '../fonts/Montserrat/static/Montserrat-Regular.ttf';
+
+      font-family:"Ubuntu";
+      src: '../fonts/Ubuntu/Ubuntu-Regular.ttf';
+  }

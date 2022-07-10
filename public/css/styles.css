@@ -1,0 +1,287 @@
+/* Import fonts from fonts file */
+@import url(fonts.css);
+
+/* CSS variables */
+@import url(_variables.css);
+
+/* import global styling */
+@import url(_global.css);
+
+
+/* <!--  negivation starts  --> */
+.nav-img {
+  width: 2.8rem;
+}
+
+.header-area {
+  max-width: 100%;
+}
+
+.header-area .main-menu .navbar .navbar-brand {
+  padding: 0 5rem;
+}
+
+.header-area .main-menu .nav-item .nav-link {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1.7 rem;
+  color: #000;
+}
+.header-area .main-menu .nav-item {
+    margin-right: 7rem ;
+}
+
+.header-area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* <!--  negivation ends  --> */
+
+/* <!--  Banner area  --> */
+
+.site-banner {
+  margin-left: 0;
+  width: 100%;
+  height: 10%;
+}
+
+.banner-img {
+  width: 50%;
+}
+
+.site-main .site-banner .site-title {
+  flex-direction: column-reverse;
+}
+.site-main .site-banner .site-title h3 {
+  padding-top: 25%;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.site-main .site-banner .site-title h3::after {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translate(-10px);
+}
+.site-main .site-banner .site-title h1 {
+  font-size: 3rem;
+}
+.site-main .site-banner .site-title h4 {
+  font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img {
+  padding: 7rem 0;
+  width: 20rem;
+}
+
+/* <!--  end banner area --> */
+
+/* <!--  start about area --> */
+
+.site-main .about-area {
+  padding: 1rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+  display: block;
+  font: normal bold 49px/60px "Montserrat";
+  letter-spacing: 16px;
+}
+
+.site-main .about-area .about-title .paragraph > p {
+  padding: 0.4rem 0;
+}
+/* <!--  end about area --> */
+
+/* <!--  Brand Area starts --> */
+
+.site-main .brand-area {
+  justify-content: center;
+}
+.site-main .brand-area img {
+  width: 50%;
+}
+
+.site-main .brand-area .col-lg-4 > .single-brand {
+  border: 1px solid #b3b2b7;
+  text-align: center;
+  padding: 1rem 0;
+  margin: 0.7rem 0;
+  width: 180px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+.site-main .brand-area .col-lg-4 .single-brand:hover {
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  transform: scale(1.1);
+}
+
+.site-main .brand-area .col-lg-4 .single-brand:hover {
+  filter: brightness(0.15);
+}
+
+.comming-soon {
+  font: normal bold 50px "Montserrat";
+}
+
+.img img {
+  width: 50%;
+}
+
+/* <!--  Subscribe me Area  --> */
+
+.site-main .subscribe-us-area .subscribe {
+  justify-content: center;
+  background-image: var(--gradient-color);
+  padding: 2rem 0;
+  margin: 3rem auto;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title h4 {
+  font: normal 700 30px/30px "Montserrat";
+  color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title p {
+  color: whitesmoke;
+  padding: 1rem 4rem;
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input {
+  padding: 10px 2rem;
+  border: 1px solid whitesmoke;
+  background: transparent;
+  color: whitesmoke;
+  font: normal 500 17px/20px "Montserrat";
+}
+
+.site-main
+  .subscribe-us-area
+  .subscribe
+  form
+  .input-textbox
+  input::placeholder {
+  color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe form .form button {
+    margin-top: 1rem;
+  background: whitesmoke;
+  color: black;
+  padding: 0.7rem 2rem;
+}
+
+.site-main .subscribe-us-area .subscribe .form {
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+/* <!-- End  Subscribe me Area  --> */
+
+/* <!--  Project Area Starts --> */
+.site-main .project-area {
+  padding: 4rem;
+}
+
+.site-main .project-area .button-group {
+  display: flex;
+}
+
+.site-main .project-area .button-group button {
+  background:transparent;
+  border: none;
+  font: normal 500 16px/13px 'Montserrat';
+  transform: uppercase;
+  margin: 1rem 0;
+}
+
+.site-main .project-area .grid .our-project > .title h4 {
+  font: normal 700 25px/12px 'Montserrat';
+}
+
+.site-main .project-area .grid .our-project .img:hover img{
+      filter: brightness(1.1)drop-shadow(1px 8px 30px #b1afaf)
+
+}
+/* <!--  Project Area Ends --> */
+
+/* <!-- Footer Area  --> */
+.footer-area .site-logo img {
+  width: 100px;
+}
+
+footer.footer-area {
+  max-width: 100%;
+  padding: 5rem 0 3rem;
+  background: url(img/footer-img.jpg) no-repeat;
+}
+
+footer.footer-area .social h5 {
+  font: normal 500 23px/30px 'Montserrat';
+}
+
+footer.footer-area .social a > i {
+  font-size: 22px;
+  padding: 1rem;
+  color: #203239;
+}
+
+footer.footer-area .social a > i:hover {
+  color: var(--primary-color);
+}
+
+/* <!-- End Footer Area  --> */
+
+
+
+
+@media (max-width: 500px) {
+  .header-area .main-menu .navbar .navbar-brand {
+    padding: 0rem;
+  }
+
+  .site-main .about-area {
+    padding: 0;
+    padding-right: 1rem;
+  }
+
+  .site-main .about-area .about-title h2 > span {
+    display: block;
+    font: normal bold 49px/60px "Montserrat";
+    letter-spacing: 0;
+  }
+  .site-main .subscribe-us-area .subscribe form .input-textbox input {
+    width: 200px;
+  }
+  .site-main .project-area .button-group button {
+    max-width: 50%;
+    font-size: .8rem;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 992px) {
+  .site-main .project-area .button-group button {
+    margin: 0.2rem;
+  }
+}
