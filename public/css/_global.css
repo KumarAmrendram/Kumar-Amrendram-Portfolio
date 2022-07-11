@@ -59,6 +59,11 @@ p.para {
     font: normal 500 16px/25px 'Montserrat';
 }
 
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+
 button:focus,
 button.active
 button:hover
