@@ -393,15 +393,12 @@ img.mfp-img {
   .mfp-arrow {
     transform: scale(0.75);
   }
-
   .mfp-arrow-left {
     transform-origin: 0;
   }
-
   .mfp-arrow-right {
     transform-origin: 100%;
   }
-
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px;
